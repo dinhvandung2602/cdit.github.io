@@ -1,0 +1,78 @@
+h1,h2,h3,h4.h5,h6{
+    font-family: "UTM Helve";
+}
+
+body{
+    margin:0;
+    font-family: "UTM Helve";
+    background-color: #FCF2E8;
+}
+
+p{
+    font-size:14px;
+}
+
+.content{
+    margin:0 4%;
+}
+
+#dantoc_image{
+    text-align: center;
+    margin-top: -2em;
+}
+
+#dantoc_image img{
+    border-radius: 0.5em;
+}
+
+#dantoc_avatar{
+    text-align: center;
+    margin-top: -2em;
+}
+
+#dantoc_title{
+    color: #B52424;
+    font-weight: bold;
+    text-align: center;
+}
+
+#dantoc_info{
+    text-align: justify;
+}
+
+h2{
+    color: #B52424;
+    font-weight: bold;
+    text-align: center;
+}
+
+video{
+    border-radius: 0.5em;
+}
+
+.dantoc_event{
+    margin: 1em 0;
+    position: relative;
+}
+
+.event_content{
+    position: absolute;
+    top:0;
+    margin: 0 1.5em;
+}
+
+.event_content h4{
+    margin-top:-1em;
+    color: #B52424;
+}
+
+.event_content p{
+    height: 8em;
+    overflow: auto;
+}
+
+
+.footer{
+    text-align: center;
+    margin: 2em 0 1em 0;
+}
