@@ -13,8 +13,22 @@ p{
     text-align: justify;
 }
 
+a{
+    font-family: "UTM Helve";
+    text-decoration: none;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 .content{
     margin:0 4%;
+}
+
+.content img{
+    border-radius: 0.5em;
 }
 
 #dantoc_image{
@@ -24,6 +38,44 @@ p{
 
 #dantoc_image img{
     border-radius: 0.5em;
+}
+
+
+#mainnav{
+    text-align: center;
+    margin:2em 0;
+}
+
+#mainnav a{
+    display: inline-block;
+    font-size:14px;
+    font-weight: bold;
+    padding:2em 0.8em 0.6em 0.8em;
+    background: linear-gradient(0deg, rgba(33,31,43,1) 70%, rgba(181,36,36,1) 100%);
+    background-color: #211F2B;
+    border-radius:0.5em;
+    position: relative;
+}
+
+#nav1::before{
+    content:url(../image/icon_home.png);
+    position: absolute;
+    top: 8px;
+    left:40%;
+}
+
+#nav2::before{
+    content:url(../image/icon_3d.png);
+    position: absolute;
+    top: 8px;
+    left:40%;
+}
+
+#nav3::before{
+    content:url(../image/icon_contact.png);
+    position: absolute;
+    top: 8px;
+    left:40%;
 }
 
 #dantoc_avatar{
@@ -69,8 +121,52 @@ video{
     overflow: auto;
 }
 
+#social{
+    width:auto;
+    height: 80px;
+    border: 1px solid grey;
+    border-radius: 0.5em;
+    margin: 1em;
+    padding: 1em;
+}
 
-.footer{
+#footer{
+    background-image: url("../image/footer.png");
+    background-color: #211F2B;
+    border-radius: 0.5em 0.5em 0 0;
+}
+
+.footer-container{
     text-align: center;
     margin: 2em 0 1em 0;
+    color:white;
+    padding: 1em 1.5em;
 }
+
+#footer a{
+    text-decoration: underline;
+    color: #E08619;
+    display: block;
+}
+
+#footer .footerbutton{
+    text-decoration: none;
+    background-color:#5b5a7542;
+    padding: 0.7em;
+    border-radius: 0.5em;
+}
+
+#footer h5{
+    margin-bottom:0;
+}
+
+#footer p{
+    text-align: center;
+}
+
+#logo-container {
+    text-align: center;
+    padding:1.5em;
+    background-color: #111016;
+}
+
