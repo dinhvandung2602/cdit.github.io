@@ -10,6 +10,7 @@ body{
 
 p{
     font-size:14px;
+    text-align: justify;
 }
 
 .content{
@@ -36,9 +37,6 @@ p{
     text-align: center;
 }
 
-#dantoc_info{
-    text-align: justify;
-}
 
 h2{
     color: #B52424;
