@@ -12,16 +12,6 @@
 
     <div class="content">
 
-        <!-- Hình ảnh dân tộc lớn -->
-        <div id="dantoc_image">
-            <img src="data_Dantoc/Cham/image.jpg"  width="100%" height="auto">
-        </div>
-
-        <!-- Avatar nhỏ hình vuông -->
-        <div id="dantoc_avatar">
-            <img src="data_Dantoc/Cham/ava.png"  width="25%" height="auto">
-        </div>
-
         <div id="mainnav">
             <!-- Link về trang chủ -->
             <a id="nav1" href="http://cdit.com.vn/dantoctongiao/">Trang chủ</a>
@@ -30,10 +20,39 @@
             <a id="nav3" href="#footer">Liên hệ</a>
         </div>
 
+
+        <!-- Hình ảnh dân tộc lớn -->
+        <div id="dantoc_image">
+            <img src="data_Dantoc/Cham/image.jpg"  width="100%" height="auto">
+        </div>
+
         <!-- Tên dân tộc -->
         <div id="dantoc_title">
             <h2>Dân tộc Chăm</h2>
         </div>
+
+        <div class="grid-container">
+            
+            <!-- Avatar nhỏ hình vuông -->
+            <div id="dantoc_avatar">  <img src="data_Dantoc/Cham/ava.png"  width="100%" height="auto">  </div>
+
+            <!-- Nút Yêu thích -->
+            <input type="button" class="likebutton" value="Yêu thích">
+
+            <!-- Ô nhập comment -->
+            <textarea id="comment-input" name="comment">Chia sẻ cảm nhận của bạn tại đây ...</textarea>
+
+            <!-- Nút Bình luận -->
+            <input type="submit" class="submitbutton" value="Bình luận">
+            
+        </div>
+
+        <!-- Thông báo hiện lên mỗi khi ấn Yêu thích hoặc Gửi Bình luận -->
+        <div class="thongbao">
+            <p>Đã gửi Yêu thích !</p>
+        </div>
+
+    
         
         <!-- Thông tin dân tộc -->
         <div id="dantoc_info">
@@ -55,7 +74,7 @@
         <h2>Video</h2>
 
         <!-- Video -->
-        <video width="100%" height="auto" controls autoplay>
+        <video width="100%" height="auto" controls>
             <source src="data_Dantoc/Cham/video.mp4" type="video/mp4">
         </video>
 

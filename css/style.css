@@ -33,7 +33,7 @@ html {
 
 #dantoc_image{
     text-align: center;
-    margin-top: -2em;
+    margin: 1em 0;
 }
 
 #dantoc_image img{
@@ -43,7 +43,7 @@ html {
 
 #mainnav{
     text-align: center;
-    margin:2em 0;
+    margin-top: -2em;
 }
 
 #mainnav a{
@@ -51,7 +51,7 @@ html {
     font-size:14px;
     font-weight: bold;
     padding:2em 0.8em 0.6em 0.8em;
-    background: linear-gradient(0deg, rgba(33,31,43,1) 70%, rgba(181,36,36,1) 100%);
+    background: linear-gradient(180deg, rgba(33,31,43,1) 70%, rgba(181,36,36,1) 100%);
     background-color: #211F2B;
     border-radius:0.5em;
     position: relative;
@@ -78,9 +78,64 @@ html {
     left:40%;
 }
 
-#dantoc_avatar{
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+        'item1 item3 item3 item3 item3 item3 item3 item3'
+        'item2 item4 item4 item4 item4 item4 item4 item4'
+    ;
+    grid-gap: 8px;
+}
+
+#dantoc-avatar{
+    grid-area: item1;
+}
+
+.likebutton{
+    grid-area: item2;
+    height: 4em;
+    background-color: #E52C2C;
+    color: white;
+    border-radius: 0.5em;
+    border: 2px solid #FF7D90;
+    font-weight: bold;
+    box-shadow: 2px 4px #00000036;
+    position: relative;
+}
+
+.likebutton::before{
+    content: url(../image/icon_heart.png);
+    top:0;
+    left: 0;
+    position:absolute;
+}
+
+#comment-input{
+    grid-area: item3;
+    height: auto;
+    padding: 1em;
+    color: #FC9E22;
+    border-radius: 1em;
+    border: 2px solid #FC9E22;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.submitbutton{
+    grid-area: item4;
+    height: 4em;
+    background-color: #FC9E22;
+    color: white;
+    border-radius: 0.5em;
+    border: 2px solid #FFD366;
+    font-weight: bold;
+    box-shadow: 2px 4px #00000036;
+}
+
+.thongbao p{
     text-align: center;
-    margin-top: -2em;
+    color: #E52C2C;
 }
 
 #dantoc_title{
